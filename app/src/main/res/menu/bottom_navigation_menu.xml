@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/past"
+        android:enabled="true"
+        android:title="past"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/next"
+        android:enabled="true"
+        android:title="next"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/favorite"
+        android:enabled="true"
+        android:title="favorite"
+        app:showAsAction="ifRoom" />
+
+</menu>
